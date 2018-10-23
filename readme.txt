@@ -73,6 +73,7 @@ git init
 #git pull https://github.com/’ ∫≈/‘∂≥Ã≤÷ø‚.git
 git pull https://github.com/cib2000/TestGit.git
 
+/git/cib2000
 
 
 
