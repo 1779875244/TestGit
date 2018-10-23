@@ -65,6 +65,14 @@ git push  -f
 git pull
 
 
+################################
+#将远程仓库下载到本地全新文件夹 法2
+#初始化本地仓库
+git init
+
+#git pull https://github.com/帐号/远程仓库.git
+git pull https://github.com/cib2000/TestGit.git
+
 
 
 
