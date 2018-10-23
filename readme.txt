@@ -74,7 +74,7 @@ git init
 git pull https://github.com/cib2000/TestGit.git
 
 
-
+/git/testgit
 
 
 
