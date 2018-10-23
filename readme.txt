@@ -75,7 +75,7 @@ git pull https://github.com/cib2000/TestGit.git
 
 /git/cib2000
 
-
+/git/testgit
 
 
 
