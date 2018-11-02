@@ -1,0 +1,71 @@
+搭建  版本控制服务器
+      windows/linux
+
+前提：必须要有 https://github.com账号
+      建议使用  码云
+
+新建项目
+	1.在https://github.com创建仓库
+	2.创建本地项目文件夹
+	3.打开git bash
+	4.创建本地仓库
+	git clone https://github.com/账号/仓库.git
+	5.进入仓库开始项目开发
+	pwd  #查看当前路径
+	cd  仓库
+	#必须先进入仓库
+	pwd
+	ls  -la
+	git  remote  -v
+	6.加载到缓存
+	git add  .
+	.(小数点)a.linux表示隐藏文件夹
+		 b.表示当前路径
+	7.提交到本地数据库
+	git commit -m  "本次提交的详细说明"
+	8.推送到远程数据库
+	git push 
+
+已存在项目
+	1.在https://github.com创建仓库
+	2.进入项目所在文件夹
+	3.打开git bash
+	4.初始化本地仓库
+	git init
+
+	5.添加远程仓库
+git remote add origin https://github.com/账号/仓库.git
+
+	6.加载到缓存
+	git add  .
+	7.提交到本地数据库
+	git commit -m  "本次提交的详细说明"
+	8.推送到远程数据库
+	git push 
+
+
+同步（下载）
+	1.在本地创建保存项目的文件夹
+	2.打开git bash
+	3.保存远程仓库到本地
+	git clone https://github.com/账号/仓库.git
+
+	4.更新
+	git pull
+
+	5.同步工作区
+	git checkout  .
+
+	#在项目开发中可以随时恢复到任意提交时刻
+恢复（还原）
+	#查看提交情况（提交标识）
+	git log 		
+	git log --oneline
+
+	恢复到某次提交点
+	git reset  提交标识
+
+	同步工作区
+	git checkout  .
+
+
